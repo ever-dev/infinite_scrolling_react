@@ -28,6 +28,56 @@
   color: #61dafb;
 }
 
+.container ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container ul li {
+  background: #fff;
+  padding: 2px;
+  width: 23%;
+  margin: 5px;
+  border: 1px solid #d3d3d3;
+}
+.container ul li.selected{
+  background: #d8d8d8;
+}
+.item-title {
+  display: block;
+  background-color: #a4b5ff;
+  padding: 4px;
+}
+
+.item-title.selected {
+  background-color: #efefef;
+}
+
+.item-id {
+  margin-top: 15px;
+  display: block;
+  color: #000;
+  padding: 2px 15px;
+  word-break: break-all;
+}
+.item-id.selected {
+  color: #999;
+}
+
+.item-index {
+  margin-top: 15px;
+  display: block;
+  padding: 2px 15px;
+  font-weight: bold;
+  word-break: break-all;
+  margin-bottom: 15px;
+}
+
+.item-index.selected {
+  color: #999;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
